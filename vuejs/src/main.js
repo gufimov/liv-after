@@ -11,8 +11,6 @@ import vSelect from 'vue-select';
 import EventBus from "./EventBus";
 import i18n from "./i18n";
 import VuePlyr from "vue-plyr"
-import vea from './vea';
-import secret from "../secret";
 import Meta from "vue-meta";
 import store from "@/store/index";
 import VueClipboard from "vue-clipboard2";
@@ -37,24 +35,7 @@ Vue.use(ElementUI);
 Vue.use(VTooltip);
 Vue.use(VueAxios, axios);
 Vue.use(Meta)
-Vue.use(vea, {
-  id: secret.uid,
-  autoTracking: {
-    transformQueryString: false,
-    screenview: true,
-    pageviewTemplate (route) {
-      return {
-        page: route.path,
-        title: document.title,
-        location: window.location.href
-      }
-    }
-  },
-  debug: {
-    enabled: false,
-    sendHitTask: true,
-  }
-})
+
 Vue.component('v-select', vSelect)
 Vue.use(require('vue-moment'));
 Vue.use(VueClipboard);
