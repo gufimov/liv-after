@@ -5,16 +5,16 @@ var authConfig = {
   github_name: "tks18",
   github_repo: "gindex-v4-no-backend",
   favicon: "https://raw.githubusercontent.com/tks18/infozy/develop/favicon.ico",
-  client_id: "client_id",
-  client_secret: "client_id",
-  refresh_token: "refresh_token",
+  client_id: "660424284326-oe3veru49rdkl9aov3fe6ot0oqokjrrs.apps.googleusercontent.com",
+  client_secret: "Y-mxY0KZtUWxp4g9hvno-C3s",
+  refresh_token: "1//0gA7ZAtvcm8emCgYIARAAGBASNwF-L9Irbee03zPHC4aAL8tNeJou1yGmmcRwleMtA_51EthAR0nCXgrDukwLSShq3AhwV7_UVbA",
   roots: [
     {
-      id: "folder_id",
-      name: "Glory to Heaven",
+      id: "0AA6n34qudHhyUk9PVA",
+      name: "Heaven",
       protect_file_link: true,
-      user: "",
-      pass: "",
+      user: "iunix",
+      pass: "gold",
     }
   ],
   default_gd: 0,
@@ -44,7 +44,7 @@ var themeOptions = {
     head_md_link: `https://cdn.jsdelivr.net/gh/tks18/gindex-v4@v7.5.2/vuejs/dist/HEAD.md`,
     readme_md: true,
     readme_md_link: "https://cdn.jsdelivr.net/gh/tks18/gindex-v4@v7.5.2/vuejs/dist/README.md",
-    desc: true,
+    desc: false,
   }
 }
 var mainhero = [
