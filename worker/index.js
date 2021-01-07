@@ -1,6 +1,6 @@
 // =======Options START=======
 var authConfig = {
-  siteName: "Glory to Heaven",
+  siteName: "iunix",
   version: "v7.8.3",
   github_name: "tks18",
   github_repo: "gindex-v4-no-backend",
